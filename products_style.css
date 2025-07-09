@@ -6,7 +6,7 @@
 }
 
 .card-img-top {
-  height: 200px;
+  height: 200vh;
   object-fit: contain;
 }
 body {
@@ -41,7 +41,7 @@ body {
 }
 
 .carousel-img {
-  height: 550px;
+  height: 100vh;
   object-fit: cover;
 }
 .background {
