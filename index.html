@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+
+function verify(){
+
+
+const username = document.getElementById("username").value;
+const password = document.getElementById("password").value;
+
+
+if(username === "Spielberg" && password === "Lijauco") {
+
+window.location.href = "Homepage.html";
+}else{
+alert("WRONG USERNAME OR PASSWORD. \n Hint: \n Username-Spielberg \n Password-Lijauco");
+
+}
+}
+
+</script>
+<link rel="stylesheet" href="products_style.css">
+</head>
+
+<body>
+  <div class="background"></div>
+  <div style="display:flex; justify-content:center; gap:40px; flex-wrap:wrap;">
+    
+    <div style="width:300px; background:#ffffff; border-radius:12px; padding:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-u2P46vBuUjw0FipSrLpFnrCx2068q3jNg&s" alt="SM" style="width:140px; height:140px;">
+
+<h1>Log In</h1>
+<h2>Name</h2>
+<input type="text" id="username" placeholder="Username"><br>
+<h2>Password</h2>
+<input type="text" id="password" placeholder="Password"><br>
+<input type="button" value="Enter" onclick="verify()">
+</div>
+    </div>
+</body>
+
+</html>
